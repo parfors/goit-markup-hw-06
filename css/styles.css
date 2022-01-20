@@ -513,7 +513,11 @@ address {
   margin-right: 93px;
 }
 .footer-subscribe-container {
+  /* position: relative; */
+}
+.button-wrap {
   position: relative;
+  display: inline-block;
 }
 .subscribe-input {
   position: relative;
@@ -521,7 +525,7 @@ address {
   height: 50px;
   margin-right: 12px;
   padding-left: 16px;
-  background-color: #2f303a;
+  background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   color: #ffffff;
@@ -557,7 +561,8 @@ address {
 .footer-subscribe-icon {
   position: absolute;
   right: 28px;
-  top: -13px;
+  top: 50%;
+  transform: translateY(-50%);
   fill: #ffffff;
 }
 /* ------------------------PORTFOLIO--------------------------------- */
