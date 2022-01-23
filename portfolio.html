@@ -339,13 +339,20 @@
         <div class="footer-subscribe-container">
           <p class="footer-subscribe-title">Подпишитесь на рассылку</p>
           <form class="footer-form" action="#">
-            <input class="subscribe-input" type="text" placeholder="E-mail" />
-            <div class="button-wrap">
-              <button class="subscribe-btn" type="submit">Подписаться</button>
+            <label class="label-footer">
+              <input
+                class="subscribe-input"
+                name="subscribe-email"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Подписаться
               <svg class="footer-subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
-            </div>
+            </button>
           </form>
         </div>
       </div>
